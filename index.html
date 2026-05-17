@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+   <title>Quantum Clicker</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Quantum Clicker</h1>
+    <h2 class="tag">Iniciante</h2>
+    <p id="mensagem"></p>
+    <p class="pontos">0</p>
+    <button onclick="clicar()" class="zero">Clique aqui</button>
+    <button onclick="ganhar()" class="primeiro">+1 Poeira Cósmica (<span id="preco_primeiro">50</span>)</button>
+    <button onclick="sozinho()" class="segundo">+1 Poeira Cósmica/segundo (<span id="preco_segundo">200</span>)</button>
+    <button onclick="dobrar()" class="terceiro">x2 Poder do Click (<span id="preco_terceiro">500</span>)</button>
+    <button onclick="bigbang()" class="quarto">Big Bang (<span id="preco_quarto">10000</span>)</button>
+
+    <div id="escolhas">
+        <p>Escolha seu bônus</p>
+        <button onclick="bonus1()">Preços Menores</button>
+        <button onclick="bonus2()">Ego + Aura</button>
+        <button onclick="bonus3()">Clique x2</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>

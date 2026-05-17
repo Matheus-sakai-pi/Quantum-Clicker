@@ -1,0 +1,45 @@
+body {
+    padding-top: 40px;
+    background-color: #0b1026;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button {
+    background-color: #1e2a5a;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: capitalize;
+    font-weight: 900;
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.pontos {
+    font-size: 100px;
+    color: cyan;
+}
+
+h1 {
+    color: gold;
+}
+
+#escolhas {
+    display: none;
+}
+
+#mensagem {
+    color: violet;
+    font-size: 20px;
+    margin-top: 20px;
+}
